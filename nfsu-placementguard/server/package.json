@@ -1,0 +1,22 @@
+{
+  "name": "nfsu-placementguard-server",
+  "version": "1.0.0",
+  "description": "Secure, Policy-Driven Placement Management System Backend for National Forensic Sciences University (NFSU)",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "seed": "node db/seed.js",
+    "test": "node tests/runTests.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "express-rate-limit": "^7.5.0",
+    "express-session": "^1.18.1",
+    "helmet": "^8.0.0",
+    "zod": "^3.24.2"
+  }
+}
